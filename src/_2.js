@@ -21,10 +21,13 @@ const [lightOn , setLightOn] = useState(false)
         <View style={ {} }>
           <TouchableOpacity
             style={ {} }
-            onPress={changeImage }>
-
-          <Image source={   lightOn === true ? lightImage : darkImage}
+            onPress={changeImage}>
+   
+          <Image source={   
+            lightOn === true  ?  lightImage : darkImage }
+           style={{ width: 200 , height: 200}}
            />
+  
 
           </TouchableOpacity>
         </View>
