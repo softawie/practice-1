@@ -1,19 +1,23 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
+import React from 'react';
+import { View, Text, Image, ScrollView, TextInput , Button} from 'react-native';
+
+import _1 from './src/_1'
+import _11 from './src/_0'
+import _2 from './src/_2'
+import _3 from './src/_3'
+
+
+ function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
+       <_1 />
+      // <_11 />
+    // <_2/>
+    // <_3/>
+
+ 
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+export default App 
